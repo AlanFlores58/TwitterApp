@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alanflores.twitterapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imagen_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    
+    <EditText
+        android:id="@+id/edit_tweet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_tweet"/>
+
+    <Button
+        android:id="@+id/button_conectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_tweet"
+        android:text="Conectar"/>
+
+    <Button
+        android:id="@+id/button_enviar_tweeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_tweet"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Enviar tweeter"/>
+
+</RelativeLayout>
